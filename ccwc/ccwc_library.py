@@ -14,8 +14,7 @@ def count_characters(input_string):
 
 # ccwc -l test.txt
 def count_lines(input_string):
-    lines = input_string.rstrip().split("\n")
-    return f"{len(lines)}"
+    return f"{len(input_string.splitlines())}"
 
 
 # ccwc -w test.txt
